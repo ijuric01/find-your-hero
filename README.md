@@ -42,7 +42,7 @@ yarn start
 
 ## Connecting to Marvel API
 
-In order to retrieve data from the marvel API you need to construct your request using the API key. All the details on how to do that can be found in the [Marvel documentation](https://developer.marvel.com/documentation/getting_started)
+In order to retrieve data from the marvel API you need to construct your request using the API key. All the details on how to do that can be found in the [Marvel documentation](https://developer.marvel.com/documentation/getting_started).
 
 ## License
 
