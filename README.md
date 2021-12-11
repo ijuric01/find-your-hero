@@ -13,7 +13,7 @@ The Application is deployed to Netlify. You can see the demo on this [Link](http
 Clone the repository:
 
 ```bash
-git clone https://github.com/ijuric01/find_your_hero.git
+git clone https://github.com/ijuric01/find-your-hero.git
 ```
 
 After cloning the github repository it is necessary to install all dependencies with npm or Yarn:
@@ -42,7 +42,7 @@ yarn start
 
 ## Connecting to Marvel API
 
-In order to retrieve data from the marvel API you need to construct your request using the API key. All the details on how to do that can be found in the [Marvel documentation](https://developer.marvel.com/documentation/getting_started)
+In order to retrieve data from the marvel API you need to construct your request using the API key. All the details on how to do that can be found in the [Marvel documentation](https://developer.marvel.com/documentation/getting_started).
 
 ## License
 
