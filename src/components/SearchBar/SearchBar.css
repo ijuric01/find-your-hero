@@ -1,0 +1,29 @@
+.input-container {
+  margin: 40px 30px 0px 30px;
+  background: #272133;
+  border-radius: 15px;
+  opacity: 0.9;
+}
+.input {
+  padding: 15px;
+  width: 400px;
+  height: 40px;
+  background: none;
+  border: 2px solid #f78f3f;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #f78f3f;
+  outline: none;
+  transition: 0.5s;
+  font-weight: bold;
+  font-family: Comic Sans MS;
+}
+.input-container:hover input {
+  box-shadow: 2px 3px 5px 0 #f78f3f;
+}
+@media screen and (max-width: 50em) {
+  .input {
+    width: 250px;
+  }
+}
