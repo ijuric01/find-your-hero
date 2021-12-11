@@ -4,6 +4,10 @@ This Application allows users to search for Marvel heroes. The user can save the
 
 The data is retrieved with the help of [Marvel API](https://developer.marvel.com/)
 
+## Deploy
+
+The Application is deployed to Netlify. You can see the demo on this [Link](https://cranky-lumiere-c20e4b.netlify.app/).
+
 ## Launching the Application
 
 Clone the repository:
