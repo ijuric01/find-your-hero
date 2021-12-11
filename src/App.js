@@ -16,7 +16,7 @@ const App = () => {
   const indexOfFirstCharacter = indexOfLastCharacter - characterPerPage;
 
   const saveToLocalStorage = (data) => {
-    localStorage.setItem("react-bookmarked-characters", JSON.stringify(data));
+    localStorage.setItem(StorageKey, JSON.stringify(data));
   };
 
   useEffect(() => {
