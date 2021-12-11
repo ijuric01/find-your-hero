@@ -58,12 +58,10 @@ const App = () => {
   const toggleCharacterFavourite = (character) => {
     const bookMarkedData = JSON.parse(localStorage.getItem(StorageKey));
     if (!character.favourite) {
-      // Ako trenutno nije favori, postat ce i triba ga uvrstit u listu
       saveToLocalStorage(
         (bookMarkedData || []).concat([{ ...character, favourite: true }])
       );
     } else {
-      // Ako trenutno je favorit, maknit cemo ga i triba filtrirat
       if (bookMarkedData) {
         saveToLocalStorage(bookMarkedData.filter((c) => c.id !== character.id));
       }
